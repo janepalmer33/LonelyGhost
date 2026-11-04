@@ -7,12 +7,12 @@
      <link rel="icon" type="image/png" href="./favicon.ico">
      <link rel="stylesheet" href="StyleSheet.css">
      <style>
-         *{background-image: url(./Images/MornNeighbor.jpg);
+         /* *{background-image: url(./Images/MornNeighbor.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
-        } 
+        }  */
         *{
             overflow:hidden;
         }
@@ -26,10 +26,10 @@
 </head>
 <body>
 <div class="Friend1">
-    <h2>We'll have to be sneaky to help Ghostie make a friend. Who should we try?</h2>
+    <!-- <h2 style="z-index: 2">We'll have to be sneaky to help Ghostie make a friend. Who should we try?</h2> -->
 
 </div>
-    <div class="grid1">
+    <div style="z-index: 1" class="grid1">
         <div class="MomC">
             <div class="MomDoor"><img src="./Images/Mom.jpg" alt="Mom"></div>
             <div class="overlay">
@@ -77,8 +77,9 @@
             <div class="overlay">
                  <div class="BlackP"><img src="./Images/Black.png" alt="Empty Door" height="300px"></div>
             </div>
-        </div>
-        <!-- <img src="Images/MornNeighbor.jpg" alt="Neighborhood"> -->
+        </div >
+        <img style="margin-top: -2vh;" class ="houses" src="Images/MornNeighbor.jpg" alt="Neighborhood">
+        <h2>We'll have to be sneaky to help Ghostie make a friend. Who should we try?</h2>
     </div>
     <div class="container"></div>
 </div>
